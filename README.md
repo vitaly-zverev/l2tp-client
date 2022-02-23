@@ -15,7 +15,7 @@ sudo python3 connect.py
 ## Example:
 
 ```sh
-vzverev@u-20:~/2/l2tp-client$ sudo python3 connect.py
+$ sudo python3 connect.py
 starting service...
 ipsec up......
 ipsec up established successfully
