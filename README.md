@@ -1,13 +1,12 @@
 # l2tp-client
-script for l2tp (only pskshared secret) client tested on Ubuntu 20.04
-
+script for l2tp (only shared secret) client tested on Ubuntu 20.04
 
 ## install packages:
 ```sh
 sudo apt-get install strongswan xl2tpd python3
 ```
 
-## user, password, ipssec preshared key and vpn server address are kept in config.ini 
+## "user", "password", "ipsec preshared key" and "vpn server ip address" are kept in config.ini 
 
 ## How to make a l2tp-vpn connection:
 ```sh
