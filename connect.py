@@ -53,7 +53,7 @@ import time
 
 def checkRunning():
 	try:
-		strongswan, err = run_script("service strongswan status | grep Active")
+		strongswan, err = run_script("service strongswan-starter status | grep Active")
 		xl2tpd, err = run_script("service xl2tpd status | grep Active")
 	except:
 		return False
@@ -74,7 +74,7 @@ def reconnect():
 			sh("rm -rf /var/run/xl2tpd/l2tp-control")
 			sh("touch /var/run/xl2tpd/l2tp-control")
 			time.sleep(0.5) 
-			sh("service strongswan restart")
+			sh("service strongswan-starter restart")
 			time.sleep(0.5) 
 			sh("service xl2tpd force-reload")
 			time.sleep(0.8) 
@@ -165,8 +165,10 @@ print("P-t-P estabished")
 
 
 sh("route add {} gw {}".format(ip, gateway))
-print(r"route add -net default gw {}".format(vpnServerLocalIp))
-sh("route add -net default gw {}".format(vpnServerLocalIp))
+#print(r"route add -net default gw {}".format(vpnServerLocalIp))
+print(r"route add -net 10.0.0.0/8  gw {}".format(vpnServerLocalIp))
+# sh("route add -net default gw {}".format(vpnServerLocalIp))
+sh("route add -net 10.0.0.0/8  gw {}".format(vpnServerLocalIp))
 
 print("l2tp connected")
 print("finished")
