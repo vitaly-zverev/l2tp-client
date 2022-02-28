@@ -7,3 +7,4 @@ refuse-eap
 refuse-chap
 nobsdcomp
 nodeflate
+usepeerdns
