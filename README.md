@@ -30,6 +30,13 @@ l2tp connected
 finished
 ```
 
-### manual source:
+### Alternative solutions:
+https://hub.docker.com/r/ubergarm/l2tp-ipsec-vpn-client
+
+
+### Server side manuals:
+https://libreswan.org/wiki/VPN_server_for_remote_clients_using_IKEv1_with_L2TP
 https://interface31.ru/tech_it/2021/06/nastraivaem-l2tp-vpn-server-na-platforme-linux.html
+
+
 
