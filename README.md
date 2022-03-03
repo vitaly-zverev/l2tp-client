@@ -1,5 +1,5 @@
 # l2tp-client
-script for l2tp (only shared secret) client tested on Ubuntu 20.04
+Script for l2tp (only shared secret) client, tested on Ubuntu 20.04.
 
 ## install packages:
 ```sh
@@ -32,6 +32,7 @@ finished
 
 ### Alternative solutions:
 https://hub.docker.com/r/ubergarm/l2tp-ipsec-vpn-client
+https://openthreat.ro/openwrt-l2tp-ipsec-vpn-client-for-mikrotik-server/
 
 
 ### Server side manuals:
