@@ -3,7 +3,7 @@ Script for l2tp (only shared secret) client, tested on Ubuntu 20.04.
 
 ## install packages:
 ```sh
-sudo apt-get install strongswan xl2tpd python3
+sudo apt-get install strongswan xl2tpd net-tools python3
 ```
 
 ## "user", "password", "ipsec preshared key" and "vpn server ip address" are kept in config.ini 
