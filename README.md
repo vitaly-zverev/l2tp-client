@@ -39,5 +39,6 @@ https://openthreat.ro/openwrt-l2tp-ipsec-vpn-client-for-mikrotik-server/
 https://libreswan.org/wiki/VPN_server_for_remote_clients_using_IKEv1_with_L2TP
 https://interface31.ru/tech_it/2021/06/nastraivaem-l2tp-vpn-server-na-platforme-linux.html
 
-
+### Site-to-site manuals
+https://adminotes.ru/vpn-l2tp-site-to-site-obedinenie-ofisov-cherez-vpn/
 
