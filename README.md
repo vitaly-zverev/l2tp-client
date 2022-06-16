@@ -1,5 +1,5 @@
 # l2tp-client
-Script for l2tp (only shared secret) client, tested on Ubuntu 20.04.
+Script for l2tp client, tested on Ubuntu (20.04) with shared secret only (AKA "ipsec preshared key").
 
 ## install packages:
 ```sh
